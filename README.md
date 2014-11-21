@@ -4,7 +4,7 @@ SQL database for the second Oficina de Design I (Digital Workshop I) project @ F
 
 ## Installation
 
-The od1.sql file should preferably be imported into an empty table.
+The od1.sql file should preferably be imported into an empty database.
 
 ## Tables
 
@@ -14,11 +14,16 @@ The od1.sql file should preferably be imported into an empty table.
 
 ##### Services
 * ID (Auto Incremented INT)
-* Name (e.g. _GAPI — Gabinete de Apoio a Projectos de Investigação_)
+* Name (VARCHAR — e.g. _GAPI — Gabinete de Apoio a Projectos de Investigação_)
 
 ##### Teachers
 * ID (Auto Incremented INT)
-* Name (e.g. _Alberto Jorge Lebre Cardoso_)
+* Name (VARCHAR — e.g. _Alberto Jorge Lebre Cardoso_)
+
+##### Offices
+* ID (Auto Incremented INT)
+* roomID (INT)
+* teacherID (INT)
 
 ## Contributing
 
